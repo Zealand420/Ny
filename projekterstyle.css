@@ -160,6 +160,7 @@ body{
     font-size: 15px;
     font-family: roboto;
     margin: 15px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
 }
 
 .projekter img{
@@ -277,7 +278,7 @@ li i{
 
 .mainsection h1{
     font-family: rubik;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 .mainsection p{
@@ -309,7 +310,7 @@ li i{
 }
 
 .projekter h4{
-    font-size: 50px;
+    font-size: 35px;
     font-family: rubik;
     margin: 15px 0px 0px 0px;
     padding: 20px;
