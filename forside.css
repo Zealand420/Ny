@@ -279,7 +279,7 @@ body{
 .grid-containertre{
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 360px 360px 360px;
+    grid-template-rows: 360px 360px 310px;
     justify-content: center;
     padding-bottom: 20px;
 }
@@ -485,7 +485,7 @@ body{
     
     .fremhævet p{
         font-size: 25px;
-        margin: 50px 0px 15px 0px;
+        margin: 15px 0px 20px 0px;
         font-family: roboto;
         color: #40C9A2;
     }
