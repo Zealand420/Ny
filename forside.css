@@ -1,0 +1,504 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(static/Rubik-Medium.ttf);
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+/*Mobil navigation*/
+
+.logo{
+    height: 100px;
+    padding: 37px 0px 0px 10px;
+    font-size: 20px;
+    font-family: rubik;
+}
+    
+.navbar {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid #000000;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+}
+    
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: roboto;
+}
+    
+.navbar-links li {
+    list-style: none;
+}
+    
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+}
+    
+    
+.toggle-button {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+}
+    
+.toggle-button .bar {
+    height: 3px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.toggle-button {
+    display: flex;
+    position: absolute;
+}
+    
+.navbar-links {
+    display: none;
+    width: 100%;
+}
+    
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+    
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+    
+.navbar-links li {
+    text-align: center;
+}
+    
+.navbar-links a {
+    padding: .5rem 1rem;
+}
+    
+.navbar-links.active {
+    display: flex;
+}
+
+
+/*Main mobil section*/
+
+.velkomstside h1{
+    color: #40C9A2;
+    text-align: center;
+    font-family: rubik;
+    font-size: 40px;
+    background: black;
+    padding: 30px 0px 5px 0px;
+}
+
+.velkomstside p{
+    background: black;
+    text-align: center;
+    color: #40C9A2;
+    font-family: roboto;
+    padding: 5px 0px 30px 0px;
+    font-size: 25px;
+}
+
+.visuelkodedesign{
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px;
+}
+
+.visuelkodedesign h2{
+    font-family: rubik;
+    font-size: 25px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 110px 42px 50px;
+    justify-content: center;
+    grid-row-gap: 5px;
+}
+
+.grid-item p{
+    font-size: 20px;
+    font-family: roboto;
+    color: #40C9A2;
+}
+
+.grid-item img{
+    margin-top: 12px;
+}
+
+.grid-containerto{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 220px 220px 220px;
+    justify-content: center;
+    grid-row-gap: 0px;
+    padding-bottom: 20px;
+}
+
+.fakta{
+    text-align: center;
+    background-color: #000000;
+}
+
+.fakta h2{
+    font-family: rubik;
+    font-size: 25px;
+    color: #F5F5F5;
+    padding: 20px;
+}
+
+.grid-tal{
+    font-size: 20px;
+    padding: 15px 0px 0px 0px;
+    font-family: roboto;
+    color: #F5F5F5;
+}
+
+.gridtalstor{
+    font-size: 105px;
+    color: #40C9A2;
+    font-family: roboto;
+}
+
+
+.visuelboks{
+    width: 100%;
+}
+
+.erfaring{
+    padding: 10px 0px 10px 0px;
+}
+
+.visuelboks p{
+    text-align: center;
+    color: #40C9A2;
+    font-family: roboto;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.ikon1{
+    color: #FF9300;
+    font-size: 100px;
+    margin: 10px;
+}
+
+.ikon2{
+    color: #1A80CE;
+    font-size: 100px;
+    margin-top: 10px;
+}
+
+.html{
+    width: 75%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.css{
+    width: 60%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.ps{
+    width: 56%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.Xd{
+    width: 70%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.Ai{
+    width: 12%;
+    background-color: #40C9A2;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+.studerene{
+    text-align: center;
+    background-color: #40C9A2;
+
+}
+
+.studerene h2{
+    font-family: rubik;
+    padding: 20px;
+}
+
+.deskbillede{
+    width: 250px;
+}
+
+.fa-brands{
+    margin: 0px 10px 0px 10px ;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+
+.grid-containertre{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 360px 360px 360px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.fremhævet{
+    text-align: center;
+    background-color:#F5F5F5;
+    color: #000000;
+    font-family: rubik;
+    padding: 20px 0px 10px 0px;
+}
+
+.fremhævet h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.fremhævet img{
+    width: 250px;
+}
+
+.fremhævet p{
+    margin: 0px 0px 15px 0px;
+    font-family: roboto;
+
+}
+
+@media screen and (min-width:768px) {
+
+    /*desktop nav*/
+
+    .logo{
+       font-size: 40px;
+       margin-bottom: 20px;
+    }
+    .toggle-button{
+        display: none;
+    }
+
+    .navbar{
+        flex-direction: row;
+        align-items: center;
+        min-width: none;
+    }
+
+    .navbar-links{
+        width: 45%;
+        display: inline;
+
+    }
+
+    .navbar-links li{ 
+        display: inline-block;
+        justify-content: right;
+    }
+
+    .navbar-links ul{
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+    }
+
+    li{
+        float: right;
+    }
+    
+    li a{
+        display: block;
+        color: #ffffff;
+        margin: 10px 0px 0px 30px;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: rubik;
+        
+    }
+    
+    li i{
+        margin: 0;
+    }
+    
+    
+    /*Main section*/
+
+    .velkomstside h1{
+        color: #40C9A2;
+        text-align: center;
+        font-family: rubik;
+        font-size: 75px;
+        background: black;
+        padding: 30px 0px 5px 0px;
+    }
+
+    .velkomstside p{
+        background: black;
+        text-align: center;
+        color: #40C9A2;
+        font-family: roboto;
+        padding: 5px 0px 30px 0px;
+        font-size: 35px;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: 200px 500px 200px;
+        grid-template-rows: 150px;
+        justify-content: center;
+    }
+    
+    .visuelkodedesign{
+        background-color: #F5F5F5;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .visuelkodedesign h2{
+        font-family: rubik;
+        font-size: 50px;
+        margin: 20px 0px 30px 0px;
+    }
+
+    .grid-item p{
+        font-size: 20px;
+        font-family: roboto;
+        color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .html{
+        width: 75%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .css{
+        width: 60%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .ps{
+        width: 56%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .Xd{
+        width: 70%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .Ai{
+        width: 12%;
+        background-color: #40C9A2;
+        margin: 50px 0px 0px 0px;
+        border: 1px solid black;
+    }
+    
+    .grid-containerto{
+        display: grid;
+        grid-template-columns: 300px 300px 300px; 
+        grid-template-rows: 200px;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+
+    .fakta h2{
+        font-family: rubik;
+        font-size: 50px;
+        color: #F5F5F5;
+        padding: 20px;
+    }
+
+    .grid-containertre{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 360px;
+        justify-content: center;
+        padding-bottom: 20px;
+        grid-column-gap: 30px;
+    }
+
+    .fremhævet{
+        text-align: center;
+        background-color:#F5F5F5;
+        color: #000000;
+        font-family: rubik;
+        padding: 20px 0px 10px 0px;
+    }
+    
+    .fremhævet h2{
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+    
+    .fremhævet img{
+        width: 300px;
+    }
+    
+    .fremhævet p{
+        font-size: 25px;
+        margin: 50px 0px 15px 0px;
+        font-family: roboto;
+        color: #40C9A2;
+    }
+
+    .fremhævet a{
+        text-decoration: none;
+    }
+    
+    .studerene h2{
+        font-family: rubik;
+        padding: 20px;
+        font-size: 30px;
+    }
+
+
+}

@@ -1,0 +1,50 @@
+body, html{
+    font-family: monospace;
+    margin: 0;
+    color: white;
+}
+
+#h1id{
+    font-family: monospace;
+    font-size: 4.5rem;
+    color: #2f3ba8;
+    margin-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#header{
+    background-color: black;
+    height: 10vh;
+}
+
+#content{
+    background-image: url("rumrejsenbaggrund.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+#divid{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+#podium1{
+    height: 55%;
+    position: absolute;
+    top: 45%;
+    left: 26%;
+}
+
+#navid{
+    font-size: 1.3rem;
+}

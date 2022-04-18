@@ -1,0 +1,334 @@
+ /*Footer*/
+ .footer-content {
+    margin-top: 200px;
+    border-top: solid 3px #c6c666;
+    background: white;
+    padding: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.footer content p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-list ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+.footer-content li{
+    margin-left: 10px;
+    margin-right: 50px;
+ 
+}
+
+/*IG og YT iconer får margin for at lave plads mellem alle iconer*/
+.ig-footer{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.yt-footer{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/*Footer SoMe iconer's størrelse*/
+.tw-footer img{
+    width: 40px;
+    height: 40px;
+}
+.yt-footer img{
+    width: 40px;
+    height: 40px;
+}
+.fb-footer img{
+    width: 40px;
+    height: 40px;
+}
+.ig-footer img{
+    width: 40px;
+    height: 40px;
+}
+
+body{
+    margin: 0%;
+    background-color: white;
+}
+
+/* #forsidebillede{
+    width: 100vw;
+} */
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 42vh;
+    align-items: center;
+    color: black;
+    
+}
+
+/* nav begynder */
+#logo{
+    height: 100px;
+    margin: .5rem;
+}
+    
+.navbar {
+    visibility: visible;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid #DAD870;
+    color: black;
+    margin-left: 0;
+    margin-right: 0;
+}
+    
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+    
+.navbar-links li {
+    list-style: none;
+}
+    
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    font-family: 'Vast Shadow', Arial, Helvetica, sans-serif;
+}
+
+    
+.toggle-button {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+}
+    
+.toggle-button .bar {
+    height: 3px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.toggle-button {
+    display: flex;
+    position: absolute;
+}
+    
+.navbar-links {
+    width: 100%;
+    display: none;
+}
+    
+.navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+    
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+    
+.navbar-links li {
+    text-align: center;
+}
+    
+.navbar-links a {
+    padding: .5rem 1rem;
+}
+    
+.navbar-links.active {
+    display: flex;
+}
+
+/* Tekstboks begynder */
+#tekstbox{
+    text-align:justify;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -80px;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    position: relative;
+}
+
+#tekstbox01{
+    text-align: center;
+    color: #f3953f;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tekstbox02{
+    margin: 8px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tilmedlingsknap begynder */
+#tilmeldknap{
+    background-color: #dbdb70;
+    bottom: 27px;
+    right: 12em;
+    border-radius: 8px;
+    border: 0px solid rgb(0,0,0);
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    margin-left: 110px;
+    margin-top: 40px;
+
+}
+#tilmeldknap > a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-size: 20px; 
+}
+
+#rødgul{
+    height: 200px;
+    width: 100%;  
+}
+
+@media screen and (min-width: 600px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        background-color: white;
+    }
+
+    .logo{
+        padding: 3px;
+    }
+    .toggle-button{
+        display: none;
+    }
+
+    .navbar{
+        flex-direction: row;
+        align-items: center;
+        min-width: none;
+    }
+
+    .navbar-links{
+        width: 50%;
+        display: inline;
+    }
+
+    .navbar-links li{ 
+        display: inline-block;
+        justify-content: right;
+    }
+
+    .navbar-links ul{
+        display: flex;
+        margin: auto;
+        flex-direction: row;
+    }
+
+    li{
+        float: right;
+    }
+    
+    li a{
+        display: block;
+        color: #000000;
+        margin: 0;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    
+    li i{
+        margin: 0;
+    }
+    
+    li a:hover{
+        color: #eb5e53;
+    }
+    
+    li a:active{
+        color: #eb5e53;
+    }
+    
+    #tekstbox {
+        margin: 12px;
+        text-align: justify;
+        color: black;
+        background-color: #f3cb41;
+        border-radius: 8px;
+    }
+    
+    article {
+        display: block;
+    }
+
+        /* Tekstboks begynder */
+    #tekstbox{
+        text-align:justify;
+        color: #000000;
+        background-color: #ffffff;
+        border-radius: 8px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: -5%;
+        padding: 10px;
+        box-shadow: 5px 10px 18px #888888;
+    }
+    
+    #tekstbox01{
+        text-align: center;
+        color: #f3953f;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #tekstbox02{
+        margin: 8px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #tilmeldknap{
+        padding: 13px;
+        background-color: #dbdb70;
+        position: fixed;
+        bottom: 25px;
+        border-radius: 20px;
+        border: 0px solid rgb(0,0,0);
+        float: right;
+        margin-right: -100px;
+    }
+
+    #rødgul{
+        height: 250px;
+    }
+
+}
+

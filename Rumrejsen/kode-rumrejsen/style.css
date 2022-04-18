@@ -1,0 +1,143 @@
+body, html{
+    font-family: monospace;
+    margin: 0;
+}
+
+#h1Id{
+    font-family: monospace;
+    font-size: 4.5rem;
+    color: #2f3ba8;
+    margin-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.pClass{
+    font-family: monospace;
+    color: #666dad;
+    font-size: 2.2rem;
+    margin-left: 3.5rem;
+    font-weight: 700;
+    padding-top: 6rem;
+}
+
+#header{
+    background-color: black;
+    height: 10vh;
+}
+
+#content{
+    background-image: url("rumforsidemænd.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;    
+}
+
+#pris{
+    font-family: monospace;
+    font-size: 2rem;
+    height: 10.1rem;
+    width: 10.1rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 60%;
+    left: 64.8%;
+    background-image: url("moon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pris:hover{
+    cursor: pointer;
+}
+
+#tilmelding{
+    font-family: monospace;
+    font-size: 2rem;
+    height: 13.6rem;
+    width: 13.6rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 13%;
+    left: 58%;
+    background-image: url("moon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tilmelding:hover{
+    cursor: pointer;
+
+}
+
+#livestream{
+    font-family: monospace;
+    font-size: 1.7rem;
+    height: 13.7rem;
+    width: 13.7rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 70.2%;
+    left: 80.2%;
+    background-image: url("moon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#livestream:hover{
+    cursor: pointer;
+}
+
+#forventninger{
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 0.9rem;
+    height: 8.5rem;
+    width: 8.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0px solid black;
+    position: absolute;
+    top: 79%;
+    left: 50.4%;
+    background-image: url("moon.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#forventninger:hover{
+    cursor: pointer;
+}
+

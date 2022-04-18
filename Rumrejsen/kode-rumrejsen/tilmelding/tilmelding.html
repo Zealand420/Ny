@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tilmelding</title>
+    <link rel="stylesheet" href="tilmelding.css">
+</head>
+<body class="bodyclass">
+    <div id="sectionid">
+    <section id="header">
+        <h2 id="h1id"><a href="../index.html">Rumrejsen 2021</a></h2>
+
+        <h2 style="color:white;">Tilmelding</h2>
+        <p style="color:white;">Tilmeld dig her ved at, svare vores spørgeskema og tilmeldingsskema</p>
+
+        <p style="color:white;">Hvorfor vil du gerne være med?</p>
+
+        <form>
+            <input type="checkbox" id="svar1" name="svar1" value="kone">
+            <label style="color: white;" for="svar1"> Min kone har forladt mig</label><br>
+            <input type="checkbox" id="svar2" name="svar2" value="spænding">
+            <label style="color: white;" for="svar2"> Jeg vil gerne have noget spænding i mit liv</label><br>
+            <input type="checkbox" id="svar3" name="svar3" value="Overlevelse">
+            <label style="color: white;" for="svar3"> Jeg vil bare gerne overleve på en anden planet</label><br>
+            <input type="checkbox" id="svar4" name="svar4" value="Ved ikke">
+            <label style="color: white;" for="svar4"> Jeg ved det ikke</label><br>
+        
+        </form>
+
+        <p style="color:white;">Indtast dine oplysninger her og tryk indsend for at færddiggøre tilmeldingen</p>
+
+        <form> 
+            <label style="color: white;" for="fnavn">Fornavn:</label><br>
+            <input type="text" id="fnavn" name="fnavn"><br>
+            <label style="color: white;" for="enavn">Efternavn:</label><br>
+            <input type="text" id="enavn" name="enavn"><br>
+            <label style="color: white;" for="alder">Alder:</label><br>
+            <input type="text" id="alder" name="alder"><br>
+            <label style="color: white;" for="telefon">Telefon nr.:</label><br>
+            <input type="text" id="telefon" name="telefon"><br>
+            <label style="color: white;" for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+        </form>  
+        <div id="divid">
+        <p style="color: white;">Er du sikker på du gerne vil tilmelde dig?</p>
+
+        <form>
+            <input type="radio" id="ja1" name="JaNej" value="JA">
+            <label style="color: white;" for="ja1">JA</label><br>
+            <input type="radio" id="nej1" name="JaNej" value="NEJ">
+            <label style="color: white;" for="nej1">NEJ</label><br>
+
+        </form>
+
+        <form>
+            <label style="color: white;" for="kommentar1">Kommentar:</label><br>
+            <input type="text" id="kommentar1" name="kommentar1"><br>
+            <label style="color: white;" for="Skrivunder1">Skriv under:</label><br>
+            <input type="text" id="Skrivunder1" name="Skrivunder1"><br>
+
+        </form>
+
+        <p style="color: white;">Jeg acceptere hermed de betingelser der er stillet og det er mit eget ansvar hvis der skulle ske uforsete hændelser på rumrejsen</p> 
+        <form>
+            <input type="checkbox" id="acceptere2" name="acceptere2" value="acceptere">
+        
+        </form>
+
+        <input type="button" onclick="alert('Din ansøgning er mermed indsendt. Held og lykke!')" value="INDSEND"> 
+        </div>
+
+        <img id="podium1" src="podium.png" alt="rumrejsen vindere 2020">
+        </section>
+        
+        <div id="content">
+            <nav id="navid">
+                <a href="../index.html">Forside</a>
+                <a href="../pris/pris.html">Pris</a>
+                <a style="color: #2f3ba8;" href="../tilmelding/tilmelding.html">Tilmelding</a>
+                <a href="../livestream/livestream.html">Livestream</a>
+                <a href="../forventninger/forventninger.html">Forventninger</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>
