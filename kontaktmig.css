@@ -129,56 +129,22 @@
 
 }
 
-.kontaktform{
-    background-color: black;
+.kontaktnem{
+    background-color: #000000;
     color: white;
-    font-family: roboto;
-    padding: 20px;
-}
-
-.kontaktform h2{
-    margin-bottom: 10px;
-    font-family: rubik;
     text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
-.kform{
-    margin: 0px 0px 0px 35px;
+.kontaktnem h2{
+    font-family: rubik;
+    font-size: 24px;
 }
 
-.tkontakt{
-    color: rgb(255, 255, 255);
-    font-size: 10px;
-}
-
-#kommentar{
-    height: 200px;
-    width: 250px;
-}
-
-#navn{
-    width: 250px;
-    margin-bottom: 10px;
-}
-
-
-#telefon{
-    width: 250px;
-    margin-bottom: 10px;
-}
-
-#e-mail{
-    width: 250px;
-    margin-bottom: 10px;
-}
-
-.kform button{
-    padding: 8px 30px 8px 30px;
-    background-color: #40C9A2;
-    color: #F5F5F5;
-    border: 0px;
-    margin: 8px 0px 0px 0px;
+.kontaktnem p{
     font-family: roboto;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 @media screen and (min-width:768px) {
@@ -260,71 +226,29 @@ li i{
     font-family: roboto;
     padding: 0px 200px 0px 200px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .midtentekst p{
     text-align: center;
 }
 
-.kontaktform{
-    background-color: black;
+.kontaktnem{
+    background-color: #000000;
     color: white;
-    font-family: roboto;
-    padding: 20px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 
-.kontaktform h2{
-    margin-bottom: 10px;
+.kontaktnem h2{
     font-family: rubik;
-    text-align: center;
     font-size: 35px;
 }
 
-.kform{
-    text-align: center;
-    
-}
-
-.tkontakt{
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    margin: 0px 0px 0px 0px;
-}
-
-#kommentar{
-    height: 300px;
-    width: 600px;
-    margin: 5px 0px 15px 0px;
-}
-
-#navn{
-    width: 600px;
-    height: 30px;
-    margin: 5px 0px 15px 0px;
-}
-
-
-#telefon{
-    width: 600px;
-    height: 30px;
-    margin: 5px 0px 15px 0px;
-}
-
-#e-mail{
-    width: 600px;
-    height: 30px;
-    margin: 5px 0px 15px 0px;
-}
-
-.kform button{
-    padding: 15px 40px 15px 40px;
-    background-color: #40C9A2;
-    color: #F5F5F5;
-    border: 0px;
-    margin: 5px 0px 0px 0px;
+.kontaktnem p{
     font-family: roboto;
+    font-size: 20px;
+    margin-top: 10px;
 }
-
-
 
 }
